@@ -1,0 +1,9 @@
+
+<h3>title: <%= @comic.title%> </h3> 
+<h3>publisher: <%= @comic.publisher%></h3>
+<h3>writer: <%= @comic.writer%></h3>
+<img src="<%= @comic.cover%>" width=100 hight=250>
+ 
+  <a href="/comic/<%= @comic.id %>/edit">edit</a>
+  <a href="/add">add</a>
+  
